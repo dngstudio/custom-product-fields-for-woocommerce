@@ -1,0 +1,67 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Custom Fields Panel */
+#custom_fields_panel {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 1.5em;
+  padding: 1em;
+}
+
+#custom_fields_panel .add-custom-field {
+  background-color: #0073aa;
+  color: #fff;
+  cursor: pointer;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease;
+}
+
+#custom_fields_panel .add-custom-field:hover {
+  background-color: #006298;
+}
+
+#custom_fields_panel .custom-field {
+  margin-bottom: 2em;
+  position: relative;
+}
+
+#custom_fields_panel .custom-field:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#custom_fields_panel .custom-field .field-label {
+  border: 1px solid #e5e5e5;
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+}
+
+#custom_fields_panel .custom-field .field-content {
+  border: 1px solid #e5e5e5;
+  display: block;
+  font-size: 1em;
+  height: 5em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+}
+
+#custom_fields_panel .custom-field .remove-custom-field {
+  background-color: #d00;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#custom_fields_panel .custom-field .remove-custom-field:hover {
+  background-color: #c00;
+}
